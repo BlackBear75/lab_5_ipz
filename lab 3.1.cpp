@@ -35,7 +35,7 @@ double REsult2(double a, double b, int k, double step, double x)//лог≥ка програм
 		{
 			break;
 		}
-		x = a + step * k;
+		x = a * step * k;
 
 		i = i + step;
 		cout << "x" << k << " = " << x << endl;
@@ -49,7 +49,7 @@ double REsult2(double a, double b, int k, double step, double x)//лог≥ка програм
 
 void main()
 {
-	double a, b, k = 1;
+	double a, b, k = 9;
 	setlocale(LC_ALL, "ru");
 	cout << "Ћабораторна робото номер 3:" << endl;
 	cout << "”вед≥ть меж≥ ≥нтервалу в≥д а до b" << endl;
